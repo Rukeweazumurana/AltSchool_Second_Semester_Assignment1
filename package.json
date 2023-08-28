@@ -6,7 +6,8 @@
   "author": "Charles Opute Odili <chaluwa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --colors"
+    "test": "jest --colors",
+    "build": "babel src -d lib"
   },
   "dependencies": {
     "jest": "^28.1.2"
